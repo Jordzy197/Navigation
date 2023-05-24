@@ -1,0 +1,130 @@
+body
+{
+	background: url(yoru.gif);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+* {
+	text-decoration: none;
+}
+.rant{
+	background: black; 
+	font-family: sitka text semibold; 
+	padding-left: 50px;
+}
+.rambo 
+{
+	display: inline-flex;
+}
+.name a 
+{
+	font-size: 40px; 
+	font-weight: 100; 
+	color: red;	
+}
+li {
+	list-style: none; 
+	display:inline-flex;
+}
+li a {
+	color: white; 
+	font-size: 18px; 
+	font-weight: bold; 
+	margin-right: 25px;
+}
+.b1:hover 
+{
+	background-color: red;
+}
+.jor:hover 
+{
+	color: red;
+}
+.yoru {
+	font-size: 25pt;
+	text-align: center;
+	margin-top: 20px;
+	background: transparent;
+	float: inherit;
+	color: lightblue;
+}
+.dropbtn {
+	background-color: red; 
+	color: black;
+	font-weight: bold; 
+	font-size: 15px;
+	border-radius: 10px; 
+	width: 110px;	
+}
+.dropdown {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: red;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover 
+{
+  background-color: red;
+  cursor: wait;
+}
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+  cursor: wait;
+}
+.love {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 400px;
+  background-color: red;
+  border: 6px outset darkred;
+}
+
+.nalyn a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  margin: 8px 12px;
+  text-decoration: none;
+}
+
+.nalyn:last-child {
+  border-bottom: none;
+}
+
+.nalyn a.active {
+  background-color: black;
+  border-radius: 20px;
+  color: red;
+  cursor: wait;
+}
+
+.nalyn a:hover:not(.active) {
+  background-color: black;
+  color: white;
+  cursor: wait;
+}
